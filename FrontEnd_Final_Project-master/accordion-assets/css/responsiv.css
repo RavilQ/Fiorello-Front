@@ -1,0 +1,403 @@
+@media only screen and (max-width: 540px) {
+  .accordion__title {
+    width: 100%;
+  }
+  .accordion__title .accordion__text h1 {
+    font-size: 2.3rem;
+    font-weight: lighter;
+  }
+  .accordion-body {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  .accordion-body .accordion {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .accordion-body .accordion .container {
+    position: relative;
+    margin: 10px;
+  }
+  .accordion-body .accordion .label {
+    position: relative;
+    padding: 10px 0;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 1px;
+    color: rgb(61, 61, 61);
+    cursor: pointer;
+  }
+  .accordion-body .accordion .label:hover {
+    color: rgb(224, 68, 68);
+  }
+  .accordion-body .accordion .label::before {
+    content: "+";
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    font-size: 1rem;
+    transform: translateY(-50%);
+  }
+  .accordion-body .accordion .content {
+    position: relative;
+    height: 0;
+    font-size: 20px;
+    text-align: justify;
+    width: 95%;
+    overflow: hidden;
+    transition: 1s;
+    font-size: 1rem;
+    color: rgb(107, 104, 104);
+    font-family: serif;
+  }
+  .accordion-body hr {
+    width: 84%;
+    border: 1px solid rgb(238, 238, 238);
+  }
+  .accordion-body .active .content {
+    height: 200px;
+  }
+  .accordion-body .active .label::before {
+    content: "-";
+    font-size: 1rem;
+  }
+  .second-accordion-body {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    padding-bottom: 100px;
+  }
+  .second-accordion-body .accordion {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .second-accordion-body .accordion .container {
+    position: relative;
+    margin: 10px 0;
+  }
+  .second-accordion-body .accordion .label {
+    position: relative;
+    padding: 17px 5px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 1px;
+    color: rgb(61, 61, 61);
+    border: 1px solid silver;
+    cursor: pointer;
+  }
+  .second-accordion-body .accordion .label:hover {
+    background-color: rgb(224, 68, 68);
+    color: white;
+  }
+  .second-accordion-body .accordion .label::before {
+    content: "+";
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    font-size: 1rem;
+    transform: translateY(-50%);
+  }
+  .second-accordion-body .accordion .content {
+    position: relative;
+    height: 0;
+    font-size: 20px;
+    text-align: justify;
+    width: 95%;
+    overflow: hidden;
+    transition: 1s;
+    font-size: 1rem;
+    color: rgb(107, 104, 104);
+    font-family: serif;
+  }
+  .second-accordion-body .accordion hr {
+    width: 50;
+    border: 1px solid rgb(238, 238, 238);
+  }
+  .second-accordion-body .accordion .active .content {
+    height: 200px;
+  }
+  .second-accordion-body .accordion .active .label::before {
+    content: "-";
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 540px) and (max-width: 800px) {
+  .accordion__title {
+    padding-top: 70px;
+    width: 100%;
+  }
+  .accordion__title .accordion__text h1 {
+    font-size: 2.8rem;
+    font-weight: lighter;
+  }
+  .accordion-body {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  .accordion-body .accordion {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .accordion-body .accordion .container {
+    position: relative;
+    margin: 10px;
+  }
+  .accordion-body .accordion .label {
+    position: relative;
+    padding: 10px 0;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 1px;
+    color: rgb(61, 61, 61);
+    cursor: pointer;
+  }
+  .accordion-body .accordion .label:hover {
+    color: rgb(224, 68, 68);
+  }
+  .accordion-body .accordion .label::before {
+    content: "+";
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    font-size: 1rem;
+    transform: translateY(-50%);
+  }
+  .accordion-body .accordion .content {
+    position: relative;
+    height: 0;
+    font-size: 20px;
+    text-align: justify;
+    width: 95%;
+    overflow: hidden;
+    transition: 1s;
+    font-size: 1rem;
+    color: rgb(107, 104, 104);
+    font-family: serif;
+  }
+  .accordion-body hr {
+    width: 84%;
+    border: 1px solid rgb(238, 238, 238);
+  }
+  .accordion-body .active .content {
+    height: 150px;
+  }
+  .accordion-body .active .label::before {
+    content: "-";
+    font-size: 1rem;
+  }
+  .second-accordion-body {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    padding-bottom: 100px;
+  }
+  .second-accordion-body .accordion {
+    width: 85%;
+    margin-top: 30px;
+  }
+  .second-accordion-body .accordion .container {
+    position: relative;
+    margin: 10px 0;
+    width: 100%;
+  }
+  .second-accordion-body .accordion .label {
+    position: relative;
+    padding: 17px 5px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 1px;
+    color: rgb(61, 61, 61);
+    border: 1px solid silver;
+    cursor: pointer;
+  }
+  .second-accordion-body .accordion .label:hover {
+    background-color: rgb(224, 68, 68);
+    color: white;
+  }
+  .second-accordion-body .accordion .label::before {
+    content: "+";
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    font-size: 1rem;
+    transform: translateY(-50%);
+  }
+  .second-accordion-body .accordion .content {
+    position: relative;
+    height: 0;
+    font-size: 20px;
+    text-align: justify;
+    width: 95%;
+    overflow: hidden;
+    transition: 1s;
+    font-size: 1rem;
+    color: rgb(107, 104, 104);
+    font-family: serif;
+  }
+  .second-accordion-body .accordion hr {
+    width: 50;
+    border: 1px solid rgb(238, 238, 238);
+  }
+  .second-accordion-body .accordion .active .content {
+    height: 150px;
+  }
+  .second-accordion-body .accordion .active .label::before {
+    content: "-";
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1126px) {
+  .accordion__title {
+    padding-top: 70px;
+    width: 100%;
+  }
+  .accordion__title .accordion__text h1 {
+    font-size: 3rem;
+    font-weight: lighter;
+  }
+  .accordion-body {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  .accordion-body .accordion {
+    width: 43%;
+  }
+  .accordion-body .accordion .container {
+    position: relative;
+    margin: 10px 10px;
+  }
+  .accordion-body .accordion .label {
+    position: relative;
+    padding: 10px 0;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 1px;
+    color: rgb(61, 61, 61);
+    cursor: pointer;
+  }
+  .accordion-body .accordion .label:hover {
+    color: rgb(224, 68, 68);
+  }
+  .accordion-body .accordion .label::before {
+    content: "+";
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    font-size: 1rem;
+    transform: translateY(-50%);
+  }
+  .accordion-body .accordion .content {
+    position: relative;
+    height: 0;
+    font-size: 20px;
+    text-align: justify;
+    width: 95%;
+    overflow: hidden;
+    transition: 1s;
+    font-size: 1rem;
+    color: rgb(107, 104, 104);
+    font-family: serif;
+  }
+  .accordion-body hr {
+    width: 84%;
+    border: 1px solid rgb(238, 238, 238);
+  }
+  .accordion-body .active .content {
+    height: 150px;
+  }
+  .accordion-body .active .label::before {
+    content: "-";
+    font-size: 1rem;
+  }
+  .second-accordion-body {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    padding-bottom: 100px;
+  }
+  .second-accordion-body .accordion {
+    width: 43%;
+  }
+  .second-accordion-body .accordion .container {
+    position: relative;
+    margin: 10px 10px;
+  }
+  .second-accordion-body .accordion .label {
+    position: relative;
+    padding: 17px 5px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 1px;
+    color: rgb(61, 61, 61);
+    border: 1px solid silver;
+    cursor: pointer;
+  }
+  .second-accordion-body .accordion .label:hover {
+    background-color: rgb(224, 68, 68);
+    color: white;
+  }
+  .second-accordion-body .accordion .label::before {
+    content: "+";
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    font-size: 1rem;
+    transform: translateY(-50%);
+  }
+  .second-accordion-body .accordion .content {
+    position: relative;
+    height: 0;
+    font-size: 20px;
+    text-align: justify;
+    width: 95%;
+    overflow: hidden;
+    transition: 1s;
+    font-size: 1rem;
+    color: rgb(107, 104, 104);
+    font-family: serif;
+  }
+  .second-accordion-body .accordion hr {
+    width: 50;
+    border: 1px solid rgb(238, 238, 238);
+  }
+  .second-accordion-body .accordion .active .content {
+    height: 150px;
+  }
+  .second-accordion-body .accordion .active .label::before {
+    content: "-";
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=responsiv.css.map */

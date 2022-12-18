@@ -1,0 +1,187 @@
+@media only screen and (max-width: 540px) {
+  .my__account {
+    background-color: #fafaf9;
+    width: 100%;
+    padding-top: 70px;
+  }
+  .my__account .my__account__body h1 {
+    font-size: 2rem;
+    font-weight: lighter;
+  }
+  .my__account .my__account__body p {
+    font-size: 1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #8b8b8b;
+  }
+  .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
+  .login h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-top: 30px;
+  }
+  .login .username {
+    height: 45px;
+    width: 85%;
+    outline: none;
+    border: 1px solid silver;
+    margin-top: 10px;
+  }
+  .login p {
+    font-size: 0.8rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #8b8b8b;
+  }
+  .login .password {
+    margin-top: 10px;
+    height: 45px;
+    width: 85%;
+    outline: none;
+    border: 1px solid silver;
+  }
+  .login .login__btn {
+    padding: 10px;
+    font-size: 0.8rem;
+    font-family: monospace;
+    color: #8b8b8b;
+    padding-left: 10px;
+  }
+  .login .login__btn button {
+    padding: 12px 35px;
+    background-color: #f34f3f;
+    color: white;
+  }
+  .login .login__btn button:hover {
+    cursor: pointer;
+    background-color: #ff3d2a;
+  }
+}
+@media only screen and (min-width: 540px) and (max-width: 800px) {
+  .my__account {
+    background-color: #fafaf9;
+    width: 100%;
+    padding-top: 70px;
+  }
+  .my__account .my__account__body h1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+  }
+  .my__account .my__account__body p {
+    font-size: 1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #8b8b8b;
+  }
+  .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
+  .login h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-top: 30px;
+  }
+  .login .username {
+    height: 45px;
+    width: 90%;
+    outline: none;
+    border: 1px solid silver;
+    margin-top: 10px;
+  }
+  .login p {
+    font-size: 0.8rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #8b8b8b;
+  }
+  .login .password {
+    margin-top: 10px;
+    height: 45px;
+    width: 90%;
+    outline: none;
+    border: 1px solid silver;
+  }
+  .login .login__btn {
+    padding: 10px;
+    font-size: 1rem;
+    font-family: monospace;
+    color: #8b8b8b;
+    padding-left: 10px;
+  }
+  .login .login__btn button {
+    padding: 14px 37px;
+    background-color: #f34f3f;
+    color: white;
+  }
+  .login .login__btn button:hover {
+    cursor: pointer;
+    background-color: #ff3d2a;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1126px) {
+  .my__account {
+    background-color: #fafaf9;
+    height: 260px;
+    padding-top: 70px;
+  }
+  .my__account .my__account__body h1 {
+    font-size: 3.3rem;
+    font-weight: lighter;
+  }
+  .my__account .my__account__body p {
+    font-size: 1.1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #8b8b8b;
+  }
+  .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
+  .login h2 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-top: 30px;
+  }
+  .login .username {
+    height: 58px;
+    width: 100%;
+    outline: none;
+    border: 1px solid silver;
+    margin-top: 20px;
+  }
+  .login p {
+    font-size: 1.1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #8b8b8b;
+  }
+  .login .password {
+    margin-top: 20px;
+    height: 58px;
+    width: 100%;
+    outline: none;
+    border: 1px solid silver;
+  }
+  .login .login__btn {
+    padding: 10px;
+    font-size: 1.1rem;
+    font-family: monospace;
+    color: #8b8b8b;
+    padding-left: 10px;
+  }
+  .login .login__btn button {
+    padding: 17px 45px;
+    background-color: #f34f3f;
+    border: 0px;
+    color: white;
+  }
+  .login .login__btn button:hover {
+    cursor: pointer;
+    background-color: #ff3d2a;
+  }
+}/*# sourceMappingURL=responsive.css.map */

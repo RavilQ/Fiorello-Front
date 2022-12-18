@@ -1,0 +1,1104 @@
+@media screen and (max-width: 540px) {
+  .product__list {
+    background-color: #fafaf9;
+    height: 260px;
+    padding-top: 70px;
+  }
+  .product__list .product__list__body h1 {
+    font-size: 2.6rem;
+    font-weight: lighter;
+  }
+  .product__list .product__list__body p {
+    font-size: 1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #8b8b8b;
+  }
+  #categories {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #categories #categories__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 150px;
+    margin-top: 20px;
+  }
+  #categories #categories__name p {
+    font-family: monospace;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    line-height: 30px;
+  }
+  #categories #categories__name a {
+    text-decoration: none;
+    color: #8b8b8b;
+    font-family: monospace;
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  #categories #categories__name #price .slidecontainer {
+    width: 100%;
+  }
+  #categories #categories__name #price .slidecontainer p {
+    font-family: monospace;
+    color: #7a7a7a;
+    font-size: 0.8rem;
+  }
+  #categories #categories__name #price .slidecontainer .slider {
+    width: 78%;
+    height: 5px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none;
+  }
+  #categories #categories__name #price .slidecontainer .slider:hover {
+    opacity: 1;
+  }
+  #categories #categories__name #price .slidecontainer .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+  }
+  #categories #categories__name #price .slidecontainer .slider::-moz-range-thumb {
+    width: 23px;
+    height: 24px;
+    border: 0;
+    background: black;
+    cursor: pointer;
+  }
+  #categories #products {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #categories #products .first-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 95%;
+    height: 450px;
+  }
+  #categories #products .first-pr .pr-1 {
+    background-image: url(/assets/pictures/shop-1-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .first-pr .pr-1:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .first-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .first-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .second-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 100%;
+    height: 450px;
+  }
+  #categories #products .second-pr .pr-2 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-2-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .second-pr .pr-2:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .second-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .second-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .third-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 100%;
+    height: 450px;
+  }
+  #categories #products .third-pr .pr-3 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-3-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .third-pr .pr-3:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .third-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .third-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .fourth-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 100%;
+    height: 450px;
+  }
+  #categories #products .fourth-pr .pr-4 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-4-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .fourth-pr .pr-4:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .fourth-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .fourth-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .fifth-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 100%;
+    height: 450px;
+  }
+  #categories #products .fifth-pr .pr-5 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-5-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .fifth-pr .pr-5:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .fifth-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .fifth-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .sixth-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 100%;
+    height: 450px;
+  }
+  #categories #products .sixth-pr .pr-6 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-6-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .sixth-pr .pr-6:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .sixth-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .sixth-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .seventh-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 100%;
+    height: 450px;
+  }
+  #categories #products .seventh-pr .pr-7 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-7-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .seventh-pr .pr-7:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .seventh-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .seventh-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .eighth-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 100%;
+    height: 450px;
+  }
+  #categories #products .eighth-pr .pr-8 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-8-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .eighth-pr .pr-8:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .eighth-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .eighth-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .ninth-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 100%;
+    height: 450px;
+  }
+  #categories #products .ninth-pr .pr-9 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-9-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .ninth-pr .pr-9:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .ninth-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .ninth-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+}
+@media screen and (min-width: 540px) and (max-width: 800px) {
+  .product__list {
+    background-color: #fafaf9;
+    height: 260px;
+    padding-top: 70px;
+  }
+  .product__list .product__list__body h1 {
+    font-size: 3rem;
+    font-weight: lighter;
+  }
+  .product__list .product__list__body p {
+    font-size: 1.1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #8b8b8b;
+  }
+  #categories {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #categories #categories__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 150px;
+    margin-top: 20px;
+  }
+  #categories #categories__name p {
+    font-family: monospace;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    line-height: 30px;
+  }
+  #categories #categories__name a {
+    text-decoration: none;
+    color: #8b8b8b;
+    font-family: monospace;
+    font-size: 0.9rem;
+    line-height: 30px;
+  }
+  #categories #categories__name #price .slidecontainer {
+    width: 70%;
+  }
+  #categories #categories__name #price .slidecontainer p {
+    font-family: monospace;
+    color: #7a7a7a;
+    font-size: 0.8rem;
+  }
+  #categories #categories__name #price .slidecontainer .slider {
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none;
+  }
+  #categories #categories__name #price .slidecontainer .slider:hover {
+    opacity: 1;
+  }
+  #categories #categories__name #price .slidecontainer .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+  }
+  #categories #categories__name #price .slidecontainer .slider::-moz-range-thumb {
+    width: 23px;
+    height: 24px;
+    border: 0;
+    background: black;
+    cursor: pointer;
+  }
+  #categories #products {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #categories #products .first-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 48%;
+    height: 450px;
+  }
+  #categories #products .first-pr .pr-1 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-1-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .first-pr .pr-1:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .first-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .first-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .second-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 48%;
+    height: 450px;
+  }
+  #categories #products .second-pr .pr-2 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-2-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .second-pr .pr-2:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .second-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .second-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .third-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 48%;
+    height: 450px;
+  }
+  #categories #products .third-pr .pr-3 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-3-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .third-pr .pr-3:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .third-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .third-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .fourth-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 48%;
+    height: 450px;
+  }
+  #categories #products .fourth-pr .pr-4 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-4-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .fourth-pr .pr-4:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .fourth-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .fourth-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .fifth-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 48%;
+    height: 450px;
+  }
+  #categories #products .fifth-pr .pr-5 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-5-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .fifth-pr .pr-5:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .fifth-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .fifth-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .sixth-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 48%;
+    height: 450px;
+  }
+  #categories #products .sixth-pr .pr-6 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-6-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .sixth-pr .pr-6:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .sixth-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .sixth-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .seventh-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 48%;
+    height: 450px;
+  }
+  #categories #products .seventh-pr .pr-7 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-7-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .seventh-pr .pr-7:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .seventh-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .seventh-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .eighth-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 48%;
+    height: 450px;
+  }
+  #categories #products .eighth-pr .pr-8 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-8-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .eighth-pr .pr-8:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .eighth-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .eighth-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .ninth-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 48%;
+    height: 450px;
+  }
+  #categories #products .ninth-pr .pr-9 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-9-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .ninth-pr .pr-9:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .ninth-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .ninth-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1126px) {
+  .product__list {
+    background-color: #fafaf9;
+    height: 260px;
+    padding-top: 70px;
+  }
+  .product__list .product__list__body h1 {
+    font-size: 3.3rem;
+    font-weight: lighter;
+  }
+  .product__list .product__list__body p {
+    font-size: 1.1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #8b8b8b;
+  }
+  #categories {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #categories #categories__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 150px;
+    margin-top: 20px;
+  }
+  #categories #categories__name p {
+    font-family: monospace;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 30px;
+  }
+  #categories #categories__name a {
+    text-decoration: none;
+    color: #8b8b8b;
+    font-family: monospace;
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+  #categories #categories__name #price {
+    margin-top: 20px;
+  }
+  #categories #categories__name #price .slidecontainer {
+    width: 80%;
+  }
+  #categories #categories__name #price .slidecontainer p {
+    font-family: monospace;
+    color: #7a7a7a;
+    font-size: 0.8rem;
+  }
+  #categories #categories__name #price .slidecontainer .slider {
+    width: 80%;
+    height: 5px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none;
+  }
+  #categories #categories__name #price .slidecontainer .slider:hover {
+    opacity: 1;
+  }
+  #categories #categories__name #price .slidecontainer .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+  }
+  #categories #categories__name #price .slidecontainer .slider::-moz-range-thumb {
+    width: 23px;
+    height: 24px;
+    border: 0;
+    background: black;
+    cursor: pointer;
+  }
+  #categories #products {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #categories #products .first-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 31%;
+    height: 450px;
+  }
+  #categories #products .first-pr .pr-1 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-1-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .first-pr .pr-1:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .first-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .first-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .second-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 31%;
+    height: 450px;
+  }
+  #categories #products .second-pr .pr-2 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-2-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .second-pr .pr-2:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .second-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .second-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .third-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 31%;
+    height: 450px;
+  }
+  #categories #products .third-pr .pr-3 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-3-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .third-pr .pr-3:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .third-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .third-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .fourth-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 31%;
+    height: 450px;
+  }
+  #categories #products .fourth-pr .pr-4 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-4-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .fourth-pr .pr-4:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .fourth-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .fourth-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .fifth-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 31%;
+    height: 450px;
+  }
+  #categories #products .fifth-pr .pr-5 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-5-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .fifth-pr .pr-5:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .fifth-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .fifth-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .sixth-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 31%;
+    height: 450px;
+  }
+  #categories #products .sixth-pr .pr-6 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-6-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .sixth-pr .pr-6:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .sixth-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .sixth-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .seventh-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 31%;
+    height: 450px;
+  }
+  #categories #products .seventh-pr .pr-7 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-7-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .seventh-pr .pr-7:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .seventh-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .seventh-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .eighth-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 31%;
+    height: 450px;
+  }
+  #categories #products .eighth-pr .pr-8 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-8-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .eighth-pr .pr-8:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .eighth-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .eighth-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+  #categories #products .ninth-pr {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 31%;
+    height: 450px;
+  }
+  #categories #products .ninth-pr .pr-9 {
+    width: 100%;
+    background-image: url(/assets/pictures/shop-9-img.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 326px;
+    transition: 0.25s;
+  }
+  #categories #products .ninth-pr .pr-9:hover {
+    cursor: pointer;
+    background-size: 105%;
+    overflow-y: hidden;
+  }
+  #categories #products .ninth-pr .pr-about {
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+  #categories #products .ninth-pr .pr-about .pr-price {
+    color: #8b8b8b;
+  }
+}/*# sourceMappingURL=responsive.css.map */
